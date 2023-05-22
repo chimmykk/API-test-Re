@@ -9,7 +9,7 @@ const cors = require('cors');
 dotenv.config();
 app.use(cors());
 
-const TOKEN ='AAAAAAAAAAAAAAAAAAAAAGe3ngEAAAAAJKfG9vl5vThg3FjFxb30mgdSSNQ%3DaLG793VCIzaUBHss5HFZoNczGMg9F0cGHPWFvOI5YA5UuuaLKO';
+const TOKEN ='AAAAAAAAAAAAAAAAAAAAAGe3ngEAAAAAxbSXfad%2FlugadlSVYs9bPx1SvxM%3Dz8I3Fbta6gqzf9gMeJPy0i2y68oPBFxQikDhCb9spNjcLJDtMn';
 const streamURL =
   'https://api.twitter.com/2/tweets/search/stream?tweet.fields=public_metrics,created_at&expansions=author_id&user.fields=username,name,profile_image_url';
   
